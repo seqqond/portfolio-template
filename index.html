@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+<div class="socialMedias">
+    <p><i class="bi bi-instagram"></i></p>
+    <p><i class="bi bi-facebook"></i></p>
+    <p><i class="bi bi-twitter"></i></p>
+    <p><i class="bi bi-twitch"></i></p>
+    <p><i class="bi bi-linkedin"></i></p>
+    <div class="lineFixed"></div>
+</div>
+<div class="myEmail">
+   <p>strafelord24@gmail.com</p>
+   <div class="lineFixed line1"></div>
+</div>
+    <nav id="navbar" class="navbar fixed-top navbar-expand-lg" data-bs-theme="dark">
+        <div class="container-fluid">
+            <button id="toggler" class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item navItem">
+                        <a class="nav-link baseLink" aria-current="page" href="#work">Work</a>
+                        <div class="emptyBlock workBorder"></div>
+                    </li>
+                    <li class="nav-item navItem">
+                        <a class="nav-link baseLink" href="#aboutMe">About</a>
+                        <div class="emptyBlock aboutBorder"></div>
+                    </li>
+                    <li class="nav-item navItem">
+                        <a class="nav-link baseLink" href="#experience">Experience</a>
+                        <div class="emptyBlock experienceBorder"></div>
+                    </li>
+                    <li class="nav-item navItem">
+                        <a class="nav-link baseLink" href="#contactMe">Contact</a>
+                        <div class="emptyBlock contactBorder"></div>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <li class="nav-item">
+                       <a href="#"><i class="bi bi-house-door opacity-50 fs-4"></i></a>
+                    </li>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div id="main">
+        <div class="container contFirst d-flex justify-content-center">
+            <div class="row">
+                <div class="col col-12">
+                    <p class="par">Hi, my name is</p>
+                    <div class="myData d-flex flex-column">Andrii Horobets.<span class="opacity-50">I build things for
+                            the
+                            web.</span></p>
+                    </div>
+                    <p class="myBio">I’m a software engineer specializing in building (and occasionally<br> designing)
+                        exceptional digital
+                        experiences. Currently, I’m focused on<br> building accessible, human-centered products at <a
+                            href="https://www.apple.com/" target="_blank" class="appleLink">Apple</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="container contSecond">
+            <div class="row mb-3">
+                <div class="col-12 col-md-6 mb-5">
+                    <h3 class="d-flex align-items-center" id="aboutMe"><span class="me-2">01.</span>About Me
+                        <div class="line"></div>
+                    </h3>
+
+                </div>
+            </div>
+            <div class="row mb-5">
+                <div class="col-12 col-md-6">
+                    <p class="myBio opacity-50">Hello! My name is Andrew and I enjoy creating things that live on the
+                        internet. My interest in web
+                        development started back in 2012 when I decided to try editing custom Tumblr themes — turns out
+                        hacking together a custom reblog button taught me a lot about HTML & CSS!</p>
+                    <p class="myBio opacity-50">Fast-forward to today, and I’ve had the privilege of working at an
+                        advertising agency, a start-up, a
+                        huge corporation, and a student-led design studio. My main focus these days is building
+                        accessible,
+                        inclusive products and digital experiences at Upstatement for a variety of clients.</p>
+                    <p class="myBio opacity-50">I also recently launched a course that covers everything you need to
+                        build a
+                        web app with the Spotify
+                        API using Node & React.</p>
+                    <p class="myBio opacity-50">
+                        Here are a few technologies I’ve been working with recently:
+                    </p>
+                    <ul class="opacity-75 languages">
+                        <div class="me-5">
+                            <li><span>JavaScript (ES6+)</span></li>
+                            <li><span>React</span></li>
+                            <li><span>Node.js</span></li>
+                        </div>
+                        <div>
+                            <li><span>TypeScript</span></li>
+                            <li><span>Eleventy</span></li>
+                            <li><span>WordPress</span></li>
+                        </div>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-6 d-flex justify-content-center">
+                    <div class="myPhoto">
+                        <img width="300" height="400" src="./Img/myphoto.png" alt="pic">
+                        <div id="box"></div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+        <div class="container contThird">
+            <div class="row mb-5">
+                <div class="col-12 col-md-6 mb-5">
+                    <h3 class="d-flex align-items-center" id="work"><span class="me-2">02.</span>Where I’ve Worked
+                        <div class="line"></div>
+                    </h3>
+                </div>
+                <div class="col-12 inner">
+                    <div class="buttons">
+                        <button class="btn" aria-selected="true" id="btn1">Upstatement</button>
+                        <button class="btn" id="btn2">Scout</button>
+                        <button class="btn" id="btn3">Apple</button>
+                        <button class="btn" id="btn4">Scout</button>
+                        <button class="btn" id="btn5">Starry</button>
+                        <button class="btn" id="btn6">MullenLowe</button>
+                    </div>
+                    <div id="buttonContent" class="ps-4">
+                        <h5>Engineer <a href="https://upstatement.com/" class="appleLink">@Upstatement</a></h5>
+                        <p>May 2018 - Present</p>
+                        <ul>
+                            <li><span>Write modern, performant, maintainable code for a diverse array of client and<br>
+                                    internal projects</span></li>
+                            <li><span>Work with a variety of different languages, platforms, frameworks, and content<br>
+                                    management systems such as JavaScript, TypeScript, Gatsby, React, Craft,
+                                    WordPress,<br>
+                                    Prismic, and Netlify</span></li>
+                            <li><span>Communicate with multi-disciplinary teams of engineers, designers, producers,
+                                    and<br>
+                                    clients on a daily basis</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+
+            <div class="col-12 col-md-6 mb-5">
+                <h3 class="d-flex align-items-center" id="experience"><span class="me-2">03.</span>Some Things I’ve
+                    Built
+                    <div class="line"></div>
+                </h3>
+
+            </div>
+            <div class="col-12 col-md-6">
+                <a target="_blank" href="https://halcyon-theme.netlify.app/"><img class="project1" src="./Img/Theme.png"
+                        height="300" alt="pic1"></a>
+            </div>
+            <div class="col-12 col-md-6 d-flex justify-content-end myProjects">
+                <div class="workDescription">
+                    <div class="firstPar">Featured project</p>
+                    </div>
+                    <a target="_blank" id="halcyonLink" href="https://halcyon-theme.netlify.app/">
+                        <div class="secondPar mb-3 fs-2">Halcyon Theme</h3>
+                    </a>
+                </div>
+                <div class="workInfo">
+                    <p>A minimal, dark blue theme for VS Code, Sublime Text, Atom, iTerm, and more.
+                        Available on
+                        Visual Studio Marketplace, Package Control, Atom Package Manager, and npm.</p>
+                </div>
+                <ul class="itLanguages mt-3">
+                    <li>VS Code</li>
+                    <li>Sublime Text</li>
+                    <li>Atom</li>
+                    <li>iTerm2</li>
+                    <li>Hyper</li>
+                </ul>
+
+
+            </div>
+        </div>
+        <div class="container contFive">
+            <h3 class="otherWorks mt-5">Other Noteworthy Projects</h3>
+            <p class="firstPar text-center">view the archive</p>
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-center w-100">
+                                <div><i class="bi bi-folder fs-1"></i></div>
+                                <div><i class="bi bi-box-arrow-in-up-right fs-4"></i></div>
+                            </div>
+                            <h4>Integrating Algolia Search with WordPress Multisite</h4>
+                            <p class="card-text">Building a custom multisite compatible WordPress plugin to build global
+                                search with Algolia</p>
+                            <ul class="itLanguages itLanguages-two">
+                                <li>Algolia</li>
+                                <li>WordPress</li>
+                                <li>PHP</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-center w-100">
+                                <div><i class="bi bi-folder fs-1"></i></div>
+                                <div><i class="bi bi-box-arrow-in-up-right fs-4"></i></div>
+                            </div>
+                            <h4>Time to Have More Fun</h4>
+                            <p class="card-text">A single page web app for helping me choose where to travel. built with
+                                Next.js, Firebase, and Tailwind CSS</p>
+                            <ul class="itLanguages itLanguages-two">
+                                <li>Next.is</li>
+                                <li>Tailwind CSS</li>
+                                <li>Firebase</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-center w-100">
+                                <div><i class="bi bi-folder fs-1"></i></div>
+                                <div><i class="bi bi-box-arrow-in-up-right fs-4"></i></div>
+                            </div>
+                            <h4>Building a Headless Mobile App CMS From Scratch</h4>
+                            <p class="card-text">Find out how we built a custom headless
+                                CMS with Node. Express. and Firebase for a project at Upstatement</p>
+                            <ul class="itLanguages itLanguages-two">
+                                <li>Node</li>
+                                <li>Express</li>
+                                <li>Firebase</li>
+                                <li>Vue</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-center w-100">
+                                <div><i class="bi bi-folder fs-1"></i></div>
+                                <div><i class="bi bi-box-arrow-in-up-right fs-4"></i></div>
+                            </div>
+                            <h4>OctoProfile</h4>
+                            <p class="card-text">A nicer look at your GitHub profile and repo stats. Includes data
+                                visualizations of your top languages, starred repositories, and sort through your top
+                                repos by number of stars. forks. and size.</p>
+                            <ul class="itLanguages itLanguages-two">
+                                <li>Next.js</li>
+                                <li>Chart.js</li>
+                                <li>GitHub API</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-center w-100">
+                                <div><i class="bi bi-folder fs-1"></i></div>
+                                <div><i class="bi bi-box-arrow-in-up-right fs-4"></i></div>
+                            </div>
+                            <h4>Google Keep Clone</h4>
+                            <p class="card-text">A simple Google Keep clone built with Vue and Firebase.</p>
+                            <ul class="itLanguages itLanguages-two">
+                                <li>Vue</li>
+                                <li>Firebase</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-center w-100">
+                                <div><i class="bi bi-folder fs-1"></i></div>
+                                <div><i class="bi bi-box-arrow-in-up-right fs-4"></i></div>
+                            </div>
+                            <h4>Apple Music Embeddable Web
+                                Player Widget</h4>
+                            <p class="card-text">AEmbeddable web plaver widget for
+                                Apple Music that lets users log in and listen to full song playback in the browser
+                                leveraging MusicKit.is. Read more about this project on 9to5Mac.</p>
+                            <ul class="itLanguages itLanguages-two">
+                                <li>Musickit.js</li>
+                                <li>JS</li>
+                                <li>SCSS</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-4 newElems">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-center w-100">
+                                <div><i class="bi bi-folder fs-1"></i></div>
+                                <div><i class="bi bi-box-arrow-in-up-right fs-4"></i></div>
+                            </div>
+                            <h4>Apple Music Facebook
+                                Messenger Integration</h4>
+                            <p class="card-text">Facebook Messenger chat bot extension featuring authentication and full
+                                song streaming from within the Messenger app. Read more about it on The Verge.</p>
+                            <ul class="itLanguages itLanguages-two">
+                                <li>Ember</li>
+                                <li>JS</li>
+                                <li>SCSS</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 newElems">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-center w-100">
+                                <div><i class="bi bi-folder fs-1"></i></div>
+                                <div><i class="bi bi-box-arrow-in-up-right fs-4"></i></div>
+                            </div>
+                            <h4>Personal Website V3</h4>
+                            <p class="card-text">Third iteration of my personal website built with Jekyll and hosted on
+                                GitHub
+                                Pages.</p>
+                            <ul class="itLanguages itLanguages-two">
+                                <li>Jekyll</li>
+                                <li>SCSS</li>
+                                <li>JS</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 newElems">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-between align-items-center w-100">
+                                <div><i class="bi bi-folder fs-1"></i></div>
+                                <div><i class="bi bi-box-arrow-in-up-right fs-4"></i></div>
+                            </div>
+                            <h4>Personal Website V2</h4>
+                            <p class="card-text">Second iteration of my personal website.
+                                Designed and developed with a conscious effort to avoid using any superfluous frameworks
+                                like Bootstrap.</p>
+                            <ul class="itLanguages itLanguages-two">
+                                <li>Jekyll</li>
+                                <li>SCSS</li>
+                                <li>JS</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="buttonShow">
+                <button type="button" class="btn" id="btnShow"></button>
+            </div>
+        </div>
+        <div class="container contSixth">
+            <p class="text-center fs-3 sectionLast" id="contactMe"><span class="me-2" style="font-size: 20px;">04.</span>What's Next?
+            <p>
+            <h1 class="text-center text-white fw-bold">Get In Touch</h1>
+            <p class="text-center text-white">Although I’m not currently looking for any new opportunities, my inbox
+                is<br> always open. Whether you have a
+                question or just want to say hi, I’ll try my<br> best to get back to you!</p>
+            <p class="text-center" id="textContact"><button type="button" class="btn mt-5" id="btnContact">Say Hello</button></p>
+
+        </div>
+        <form action="server.php" class="d-flex justify-content-center mt-5 mb-3" method="post" name="register">
+            <div class="content">
+                <div class="row">
+                    <div class="col-md-6">
+                        <label for="firstName" class="form-label">First Name</label>
+                        <input type="text" class="form-control" name="" id="firstName">
+                    </div>
+                    <div class="col-md-6">
+                        <label for="lastName" class="form-label">Last Name</label>
+                        <input type="text" class="form-control" name="" id="lastName">
+                    </div>
+                </div>
+                <div class="col-12">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" name="" id="email">
+                </div>
+                <div class="col-12">
+                    <label for="newText" class="form-label">Email</label>
+                    <textarea name="" id="newText"></textarea>
+                </div>
+                <p class="text-center"><button class="btn mt-2" id="btnSend">Send</button></p>
+            </div>
+           
+        </form>
+        <footer>
+            <div class="socialNets mt-5">
+                <p><i class="bi bi-instagram"></i></p>
+                <p><i class="bi bi-facebook"></i></p>
+                <p><i class="bi bi-twitter"></i></p>
+                <p><i class="bi bi-twitch"></i></p>
+                <p><i class="bi bi-linkedin"></i></p>
+            </div>
+            <p class="text-center text-white firstSect">Designed & Built by Brittany Chiang</p>
+            <p class="text-white justify-content-center d-flex align-items-center"><span class="me-3"><i class="bi bi-star"></i> 5,850</span><span><i class="bi bi-share"></i> 2,762</span></p>
+        </footer>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <script src="./plugins/jquery-3.6.3.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
